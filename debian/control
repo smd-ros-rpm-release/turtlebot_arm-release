@@ -1,0 +1,12 @@
+Source: ros-indigo-turtlebot-arm-description
+Section: misc
+Priority: extra
+Maintainer: Jorge Santos <jsantossimon@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/turtlebot_arm_description
+Standards-Version: 3.9.2
+
+Package: ros-indigo-turtlebot-arm-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-urdf, ros-indigo-xacro
+Description: turtlebot_arm_description contains URDF files and meshes for the TurtleBot arm.
