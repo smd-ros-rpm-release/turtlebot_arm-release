@@ -1,0 +1,12 @@
+Source: ros-indigo-turtlebot-arm-bringup
+Section: misc
+Priority: extra
+Maintainer: Jorge Santos <jsantossimon@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/turtlebot_arm_bringup
+Standards-Version: 3.9.2
+
+Package: ros-indigo-turtlebot-arm-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-arbotix-controllers, ros-indigo-arbotix-python
+Description: turtlebot_arm_bringup provides launch files for starting the drivers for the TurtleBot arm.
