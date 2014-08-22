@@ -1,0 +1,13 @@
+ros-indigo-turtlebot-arm-description (0.3.1-0trusty) trusty; urgency=high
+
+  * Set separated URLs for website, repository and bugtracker
+
+ -- Jorge Santos <jsantossimon@gmail.com>  Thu, 21 Aug 2014 22:00:00 -0000
+
+ros-indigo-turtlebot-arm-description (0.3.0-0trusty) trusty; urgency=high
+
+  * First indigo release
+
+ -- Jorge Santos <jsantossimon@gmail.com>  Fri, 15 Aug 2014 22:00:00 -0000
+
+
