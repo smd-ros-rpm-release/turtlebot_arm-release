@@ -2,6 +2,9 @@
 Changelog for package turtlebot_arm_kinect_calibration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.2 (2014-08-30)
+------------------
+
 0.3.1 (2014-08-22)
 ------------------
 * Set separated URLs for website, repository and bugtracker
