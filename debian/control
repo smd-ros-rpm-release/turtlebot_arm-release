@@ -1,0 +1,12 @@
+Source: ros-indigo-turtlebot-arm-kinect-calibration
+Section: misc
+Priority: extra
+Maintainer: Jorge Santos <jsantossimon@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-cv-bridge, ros-indigo-image-geometry, ros-indigo-image-transport, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-tf, ros-indigo-visualization-msgs
+Homepage: http://ros.org/wiki/turtlebot_arm_kinect_calibration
+Standards-Version: 3.9.2
+
+Package: ros-indigo-turtlebot-arm-kinect-calibration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cv-bridge, ros-indigo-image-geometry, ros-indigo-image-transport, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-tf, ros-indigo-visualization-msgs
+Description: turtlebot_arm_kinect_calibration allows calibration of a kinect to a TurtleBot arm, including a kinect on-board and off-board the TurtleBot for more precise manipulation.
