@@ -1,0 +1,12 @@
+Source: ros-indigo-turtlebot-arm-block-manipulation
+Section: misc
+Priority: extra
+Maintainer: Jorge Santos <jsantossimon@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-arbotix-msgs, ros-indigo-catkin, ros-indigo-interactive-markers, ros-indigo-moveit-core, ros-indigo-moveit-ros-planning-interface, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-visualization-msgs
+Homepage: http://ros.org/wiki/turtlebot_arm_block_manipulation
+Standards-Version: 3.9.2
+
+Package: ros-indigo-turtlebot-arm-block-manipulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-arbotix-msgs, ros-indigo-interactive-markers, ros-indigo-moveit-core, ros-indigo-moveit-ros-planning-interface, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-visualization-msgs
+Description: turtlebot_arm_block_manipulation contains a demo allowing the TurtleBot arm to manipulate small blocks on a level surface using interactive markers.
