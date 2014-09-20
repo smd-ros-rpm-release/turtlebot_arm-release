@@ -1,3 +1,32 @@
+## turtlebot_arm (indigo) - 0.3.3-0
+
+The packages in the `turtlebot_arm` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo turtlebot_arm` on `Sat, 20 Sep 2014 14:08:29 -0000`
+
+These packages were released:
+- `turtlebot_arm`
+- `turtlebot_arm_block_manipulation`
+- `turtlebot_arm_bringup`
+- `turtlebot_arm_description`
+- `turtlebot_arm_ikfast_plugin`
+- `turtlebot_arm_kinect_calibration`
+- `turtlebot_arm_moveit_config`
+- `turtlebot_arm_moveit_demos`
+
+Version of package(s) in repository `turtlebot_arm`:
+- upstream repository: https://github.com/turtlebot/turtlebot_arm.git
+- release repository: https://github.com/turtlebot-release/turtlebot_arm-release.git
+- rosdistro version: `0.3.2-0`
+- old version: `0.3.2-0`
+- new version: `0.3.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.11`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## turtlebot_arm (indigo) - 0.3.2-0
 
 The packages in the `turtlebot_arm` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo turtlebot_arm` on `Sat, 30 Aug 2014 11:47:12 -0000`
