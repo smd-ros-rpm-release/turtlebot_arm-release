@@ -1,0 +1,12 @@
+Source: ros-indigo-turtlebot-arm-moveit-demos
+Section: misc
+Priority: extra
+Maintainer: Jorge Santos <jsantossimon@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/turtlebot_arm_moveit_demos
+Standards-Version: 3.9.2
+
+Package: ros-indigo-turtlebot-arm-moveit-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-moveit-commander, ros-indigo-moveit-msgs, ros-indigo-rospy, ros-indigo-tf, ros-indigo-trajectory-msgs
+Description: The turtlebot_arm_moveit_demos package contains scripts to start playing with a turtlebot arm and MoveIt.
