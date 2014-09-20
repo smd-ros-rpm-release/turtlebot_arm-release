@@ -1,0 +1,12 @@
+Source: ros-indigo-turtlebot-arm
+Section: misc
+Priority: extra
+Maintainer: Jorge Santos <jsantossimon@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/turtlebot_arm
+Standards-Version: 3.9.2
+
+Package: ros-indigo-turtlebot-arm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-turtlebot-arm-block-manipulation, ros-indigo-turtlebot-arm-bringup, ros-indigo-turtlebot-arm-description, ros-indigo-turtlebot-arm-ikfast-plugin, ros-indigo-turtlebot-arm-kinect-calibration, ros-indigo-turtlebot-arm-moveit-config, ros-indigo-turtlebot-arm-moveit-demos
+Description: The turtlebot arm meta package.
